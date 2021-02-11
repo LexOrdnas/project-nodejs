@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React, { useState, useEffect } from 'react';
 import './Product.css';
 
@@ -38,10 +39,11 @@ const ListProd = () => {
                         <p className="price text-danger">R$ {prod.finalprice}</p>
                         <hr />
                     </div>
-                        
+     
                     )
-                }
-            ) }</section>
+                } ) 
+            }
+            </section>
         </>
     )
 }
